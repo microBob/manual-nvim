@@ -15,20 +15,4 @@ return {
 			})
 		end,
 	},
-	{
-		"WhoIsSethDaniel/mason-tool-installer.nvim",
-		opts = {
-			ensure_installed = {
-				"lua_ls",
-				"nil_ls",
-				"marksman",
-				"vale",
-				"mdformat",
-				"stylua",
-				"luacheck",
-				"nixpkgs-fmt",
-			},
-			auto_update = true,
-		},
-	},
 }

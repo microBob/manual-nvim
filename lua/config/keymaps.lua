@@ -26,3 +26,9 @@ end, {})
 -- Terminal.
 vim.keymap.set("n", "<leader>tt", "<cmd>ToggleTerm<cr>", {})
 vim.keymap.set("t", "<esc><esc>", "<C-\\><C-n>", {})
+
+-- LazyGit
+-- function _lazygit_toggle()
+-- 	require("toggleterm.terminal").Terminal:new({ cmd = "lazygit", hidden = true }):toggle()
+-- end
+-- vim.keymap.set("n", "<leader>gg", "<cmd>lua _lazygit_toggle()<cr>", { noremap = true, silent = true })
