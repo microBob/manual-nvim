@@ -24,4 +24,5 @@ vim.keymap.set("n", "<leader>l", function()
 end, {})
 
 -- Terminal.
+vim.keymap.set("n", "<leader>tt", "<cmd>ToggleTerm<cr>", {})
 vim.keymap.set("t", "<esc><esc>", "<C-\\><C-n>", {})
