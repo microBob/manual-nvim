@@ -28,4 +28,6 @@ vim.opt.wrap = true
 vim.opt.smoothscroll = true
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
+vim.opt.nu = true
+vim.opt.rnu = true
 vim.g.markdown_recommended_style = 0
